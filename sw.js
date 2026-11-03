@@ -1,5 +1,5 @@
 // Jenny Fit Service Worker – Cache-Version bei JEDEM Update hochzählen
-const CACHE = 'jennyfit-v4';
+const CACHE = 'jennyfit-v5';
 const ASSETS = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', e => {
